@@ -1,0 +1,275 @@
+Raven's Debian Disk Audit
+
+Generated: Sat Oct 10 05:34:14 PM EDT 2026
+Hostname: DarkRaven
+User: raven
+Running kernel: 6.1.0-53-amd64
+
+
+============================================================
+Filesystem Usage - df -h
+============================================================
+
+Filesystem              Size  Used Avail Use% Mounted on
+udev                    3.8G     0  3.8G   0% /dev
+tmpfs                   785M  1.6M  783M   1% /run
+/dev/nvme0n1p2           23G   17G  4.8G  79% /
+tmpfs                   3.9G  216K  3.9G   1% /dev/shm
+tmpfs                   5.0M  8.0K  5.0M   1% /run/lock
+efivarfs                160K  110K   46K  71% /sys/firmware/efi/efivars
+/dev/nvme0n1p5          1.8G   76M  1.7G   5% /tmp
+/dev/nvme0n1p3          9.1G  1.4G  7.3G  16% /var
+/dev/nvme0n1p1          511M  6.0M  506M   2% /boot/efi
+/dev/nvme0n1p6          1.8T   30G  1.7T   2% /home
+tmpfs                   785M  100K  785M   1% /run/user/1000
+//192.168.0.55/G        1.9T  1.7T  133G  93% /home/raven/share
+//192.168.0.55/users    953G  184G  769G  20% /home/raven/cloud
+//192.168.0.55/Desktop  953G  184G  769G  20% /home/raven/windows
+//192.168.0.168/share   1.9T   22G  1.8T   2% /home/raven/media
+//192.168.0.168/Laptop  1.9T   22G  1.8T   2% /home/raven/Backup
+
+============================================================
+Root Filesystem Breakdown
+============================================================
+
+4.0K	/srv
+8.0K	/mnt
+12K	/media
+16K	/lost+found
+61M	/root
+89M	/etc
+209M	/boot
+444M	/opt
+17G	/
+17G	/usr
+
+============================================================
+/usr Breakdown
+============================================================
+
+4.0K	/usr/lib64
+68K	/usr/games
+124K	/usr/src
+140K	/usr/x86_64-w64-mingw32
+148K	/usr/i686-w64-mingw32
+2.1M	/usr/local
+31M	/usr/libexec
+145M	/usr/sbin
+235M	/usr/include
+562M	/usr/bin
+7.1G	/usr/share
+8.1G	/usr/lib
+17G	/usr
+
+============================================================
+Largest Directories Under /usr
+============================================================
+
+17G	/usr
+8.1G	/usr/lib
+7.1G	/usr/share
+2.3G	/usr/lib/x86_64-linux-gnu
+1.1G	/usr/lib/i386-linux-gnu
+1020M	/usr/share/code
+1001M	/usr/share/fonts
+960M	/usr/share/libreoffice
+820M	/usr/share/locale
+790M	/usr/lib/modules
+763M	/usr/lib/ghc
+598M	/usr/lib/python3
+571M	/usr/share/doc
+562M	/usr/bin
+542M	/usr/lib/firmware
+522M	/usr/lib/libreoffice
+458M	/usr/share/librewolf
+356M	/usr/lib/llvm-14
+322M	/usr/lib/firefox-esr
+260M	/usr/lib/jvm
+235M	/usr/include
+226M	/usr/share/fpcsrc
+169M	/usr/share/hunspell
+162M	/usr/include/boost
+158M	/usr/lib/gcc
+152M	/usr/share/nodejs
+145M	/usr/sbin
+131M	/usr/share/dict
+126M	/usr/share/gimp
+109M	/usr/share/icons
+106M	/usr/share/ibus
+104M	/usr/share/mythes
+88M	/usr/share/man
+71M	/usr/share/wallpapers
+64M	/usr/share/javascript
+63M	/usr/lib/R
+59M	/usr/lib/python3.11
+58M	/usr/lib/ispell
+54M	/usr/lib/cryfs
+52M	/usr/lib/aspell
+
+============================================================
+/usr/local Breakdown
+============================================================
+
+2.1M	/usr/local
+1.9M	/usr/local/bin
+68K	/usr/local/share
+24K	/usr/local/share/sgml
+20K	/usr/local/share/xml
+20K	/usr/local/lib
+8.0K	/usr/local/share/zsh
+8.0K	/usr/local/lib/R
+8.0K	/usr/local/lib/python3.11
+4.0K	/usr/local/src
+4.0K	/usr/local/share/man
+4.0K	/usr/local/share/fonts
+4.0K	/usr/local/share/ca-certificates
+4.0K	/usr/local/sbin
+4.0K	/usr/local/include
+4.0K	/usr/local/games
+4.0K	/usr/local/etc
+
+============================================================
+Largest Installed Packages
+============================================================
+
+  1013.0 MB  code
+   757.6 MB  ghc
+   562.7 MB  libwine
+   457.5 MB  librewolf
+   440.5 MB  google-chrome-stable
+   390.8 MB  linux-image-6.1.0-53-amd64
+   390.7 MB  linux-image-6.1.0-52-amd64
+   326.4 MB  fonts-noto-extra
+   294.2 MB  firefox-esr
+   265.3 MB  llvm-14-dev
+   209.0 MB  fonts-noto-cjk-extra
+   206.1 MB  fpc-source-3.2.2
+   184.1 MB  openjdk-17-jre-headless
+   140.5 MB  firmware-netronome
+   135.0 MB  libboost1.74-dev
+   125.9 MB  libqt5webenginecore5
+   122.0 MB  libllvm15
+   114.7 MB  libreoffice-core
+   111.9 MB  libllvm15
+   106.6 MB  ibus-data
+   104.9 MB  libllvm14
+    97.0 MB  inkscape
+    90.4 MB  libwebkit2gtk-4.1-0
+    88.9 MB  fonts-noto-cjk
+    84.5 MB  gimp-data
+    82.2 MB  androguard
+    80.4 MB  firmware-iwlwifi
+    78.8 MB  firmware-amd-graphics
+    75.2 MB  openjdk-17-jdk-headless
+    70.4 MB  fonts-noto-ui-extra
+    70.2 MB  breeze
+    66.7 MB  gimp-help-sv
+    66.6 MB  gcc-12
+    61.1 MB  python3-scipy
+    59.6 MB  firmware-atheros
+    58.7 MB  cryfs
+    57.6 MB  wpolish
+    57.3 MB  libreoffice-common
+    56.1 MB  libclang-cpp14
+    55.8 MB  libopenblas-pthread-dev
+    55.3 MB  coreboot-utils
+    53.5 MB  libreoffice-help-ca
+    50.9 MB  fp-units-rtl-3.2.2
+    50.5 MB  firmware-misc-nonfree
+    47.2 MB  llvm-14
+    46.7 MB  libicu-dev
+    45.9 MB  aspell-no
+    45.6 MB  libqt5webkit5
+    45.3 MB  libnode108
+    43.9 MB  mariadb-server-core
+
+============================================================
+Kernel Status
+============================================================
+
+Running kernel:
+6.1.0-53-amd64
+
+ii 	400047	linux-image-6.1.0-52-amd64
+un 		linux-image-6.1.0-52-amd64-unsigned
+ii 	400189	linux-image-6.1.0-53-amd64
+un 		linux-image-6.1.0-53-amd64-unsigned
+ii 	13	linux-image-amd64
+un 		linux-image-generic
+
+============================================================
+Residual Configuration Packages
+============================================================
+
+
+============================================================
+Packages in IC State
+============================================================
+
+linux-headers-amd64
+
+============================================================
+Large /usr/local Directories
+============================================================
+
+     1.9 MB  /usr/local/bin
+     0.1 MB  /usr/local/share
+     0.0 MB  /usr/local/share/sgml
+     0.0 MB  /usr/local/share/xml
+     0.0 MB  /usr/local/lib
+     0.0 MB  /usr/local/share/zsh
+     0.0 MB  /usr/local/lib/R
+     0.0 MB  /usr/local/lib/python3.11
+     0.0 MB  /usr/local/src
+     0.0 MB  /usr/local/share/man
+     0.0 MB  /usr/local/share/fonts
+     0.0 MB  /usr/local/share/ca-certificates
+     0.0 MB  /usr/local/sbin
+     0.0 MB  /usr/local/include
+     0.0 MB  /usr/local/games
+     0.0 MB  /usr/local/etc
+Reading package lists...
+Building dependency tree...
+Reading state information...
+
+============================================================
+Final Filesystem Usage
+============================================================
+
+Filesystem              Size  Used Avail Use% Mounted on
+udev                    3.8G     0  3.8G   0% /dev
+tmpfs                   785M  1.6M  783M   1% /run
+/dev/nvme0n1p2           23G   17G  4.8G  79% /
+tmpfs                   3.9G  216K  3.9G   1% /dev/shm
+tmpfs                   5.0M  8.0K  5.0M   1% /run/lock
+efivarfs                160K  110K   46K  71% /sys/firmware/efi/efivars
+/dev/nvme0n1p5          1.8G   76M  1.7G   5% /tmp
+/dev/nvme0n1p3          9.1G  1.5G  7.2G  18% /var
+/dev/nvme0n1p1          511M  6.0M  506M   2% /boot/efi
+/dev/nvme0n1p6          1.8T   30G  1.7T   2% /home
+tmpfs                   785M  100K  785M   1% /run/user/1000
+//192.168.0.55/G        1.9T  1.7T  133G  93% /home/raven/share
+//192.168.0.55/users    953G  184G  769G  20% /home/raven/cloud
+//192.168.0.55/Desktop  953G  184G  769G  20% /home/raven/windows
+//192.168.0.168/share   1.9T   22G  1.8T   2% /home/raven/media
+//192.168.0.168/Laptop  1.9T   22G  1.8T   2% /home/raven/Backup
+4.0K	/srv
+8.0K	/mnt
+12K	/media
+16K	/lost+found
+61M	/root
+89M	/etc
+209M	/boot
+444M	/opt
+17G	/
+17G	/usr
+
+============================================================
+Final Summary
+============================================================
+
+Free space before: 4.8GB
+Free space after:  4.8GB
+Space recovered:   0B
+
+Runtime: 2m 7s

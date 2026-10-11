@@ -1,2 +1,1 @@
-# Sys_Clean
-system cleaner for debian
+#sys_cleaner
